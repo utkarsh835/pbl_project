@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# VS Code
+.vscode/
+
+# Data (large datasets)
+data/
+
+# Outputs / results
+outputs/
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# Images (optional)
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter (if you use later)
+.ipynb_checkpoints/

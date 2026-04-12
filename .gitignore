@@ -8,10 +8,10 @@ venv/
 # VS Code
 .vscode/
 
-# Data (large datasets)
+# Data
 data/
 
-# Outputs / results
+# Outputs
 outputs/
 
 # Logs
@@ -19,11 +19,3 @@ outputs/
 
 # Mac
 .DS_Store
-
-# Images (optional)
-*.png
-*.jpg
-*.jpeg
-
-# Jupyter (if you use later)
-.ipynb_checkpoints/

@@ -3,7 +3,8 @@ app.py  —  Streamlit app. Clean, simple, no clutter.
 
 Run:  streamlit run app.py
 """
-
+from models import *
+from data_loader import *
 import os, json, pickle, glob
 import numpy as np, pandas as pd
 import streamlit as st
@@ -14,8 +15,7 @@ from data_loader       import download_ticker, TICKERS
 from preprocessing     import build_feature_frame, DataScaler, WINDOW_SIZE
 from pattern_detection import describe_latest_patterns, PATTERN_NAMES, detect_all_patterns
 
-st.set_page_config(page_title="📈 Stock Predictor", layout="wide",
-                   initial_sidebar_state="expanded")
+st.set_page_config(page_title="📈 Stock Predictor", layout="wide",initial_sidebar_state="expanded")
 
 OUTPUT_ROOT = "outputs"
 
